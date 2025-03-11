@@ -1,5 +1,6 @@
 // WeatherAPI.com API utility functions
-const API_KEY = process.env.NEXT_PUBLIC_WEATHERAPI_KEY || 'YOUR_API_KEY'; // Get your API key from https://www.weatherapi.com/
+// const API_KEY = process.env.NEXT_PUBLIC_WEATHERAPI_KEY || 'YOUR_API_KEY'; // Get your API key from https://www.weatherapi.com/
+const API_KEY = "844ac096ddc548fe8a0150327251003" || 'YOUR_API_KEY'; // Get your API key from https://www.weatherapi.com/
 const BASE_URL = 'http://api.weatherapi.com/v1';
 
 // Get weather data by city name
